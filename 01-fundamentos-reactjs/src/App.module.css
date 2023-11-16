@@ -8,3 +8,13 @@
     gap: 2rem;
     align-items: flex-start;
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%; /* O tamanho dos elementos na tela se baseiam no font-size. Se eu diminuir, tudo vai ficar um pouco menor. */
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
